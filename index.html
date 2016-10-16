@@ -1,12 +1,108 @@
-<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<HTML>
-   <HEAD>
-      <TITLE>
-         A Small Hello
-      </TITLE>
-   </HEAD>
-<BODY>
-   <H1>Hi</H1>
-   <P>This is very minimal "hello world" HTML document.</P>
-</BODY>
-</HTML>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gumini Maciej Cieślak</title>
+
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="cover.css" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+    
+              <ul class="nav masthead-nav">
+                <li class="active">
+                  <a href="#">Home</a>
+                </li>
+
+                <li>
+                  <a href="https://linkedin.com/in/maciej-cieślak-3766a127">LinkedIn</a>
+                </li>
+
+                <li>
+                  <a href="#" data-toggle="modal" data-target="#modalCV">CV</a>
+                </li>
+                
+                <li>
+                  <a href="#" data-toggle="modal" data-target="#modalEmail">Email</a>
+                </li>
+                
+              </ul>
+            
+            </div>
+          </div>
+        
+          <div class="inner cover">
+            <h1 class="cover-heading">Maciej Cieślak</h1>
+            <ul>
+              <li>Extensive experience in Microsoft .NET stack</li>
+              <li>Project Management</li>
+              <li>Software Design and Architecture</li>  
+              <li>Based in Wrocław, Poland</li>
+            </ul>
+          </div>
+        
+          <div class="mastfoot">
+            <div class="inner">
+              <p>© 2016 Maciej Cieślak</p>
+            </div>
+          </div>
+                      
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="modalEmail" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Reach me via email</h4>
+          </div>
+          <div class="modal-body">
+            <p>If you wish to email me, my email address is my first name at this website.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modalCV" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Curriculum Vitae</h4>
+          </div>
+          <div class="modal-body">
+            <p>Available upon request.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

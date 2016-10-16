@@ -1,0 +1,35 @@
+html,
+body {
+  background: url('./images/background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.cover.inner {
+  text-align: left;
+  float: left;
+}
+
+.modal-backdrop {
+  background-color: #777;
+}
+
+.modal-content {
+  background-color: #444;
+}
+
+.modal-body {
+  background-color: rgba(0,0,0,.3);
+}
+
+.close {
+  color: #aaa; 
+  opacity: 1;
+}
